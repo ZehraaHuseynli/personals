@@ -159,7 +159,6 @@ color: white;
 }
 .containerThree{
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +169,7 @@ color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 .containerThree .servicesText .servicesTextt{
 display: flex;
@@ -185,10 +185,23 @@ gap:10px;
 .containerThree .servicesText .servicesTextt p{
     color: gray;
 }
+.servicesIcon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    
+}
 .containerThree .servicesIcon .iconBtn{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    padding: 20px 5px;
+    gap: 15px;
 }
 #projects{
     width: 100%;
