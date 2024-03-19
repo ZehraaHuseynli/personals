@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height:50px ;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    width: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+}
+ul li{
+    display: flex;
+  
+}
+li:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transition: 1;
+}
+.blogItem{
+    position: relative;
+}
+.blogDropDown{
+    position: absolute;
+    display: none;
+}
+.blogItem:hover .blogDropDown{
+    display: block;
+}
+#thisIsMe{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerOne{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerOne .thisIsMeText{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerOne .thisIsMeText .thisIsMeTextt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.containerOne .thisIsMeText .thisIsMeTextt h4{
+font-size: 15px;
+color: black;
+font-weight: 100;
+}
+.containerOne .thisIsMeText .thisIsMeTextt h1{
+font-size: 35px;
+font-weight: 800;
+}
+.containerOne .thisIsMeText .thisIsMeTextt p{
+    color: gray;
+    font-size: 15px;
+}
+
+.containerOne .thisIsMeText .thisIsMeTextt button{
+background-color: #71A8FD;
+color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 50px;
+}
+.containerOne .thisIsMeText .thisIsMeTextt button:hover{
+    cursor: pointer;
+}    
+#personal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerTwo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.containerTwo .personalText{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerTwo .personalText .personalTextt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+.containerTwo .personalText .personalTextt h4{
+    font-weight: 100;
+}
+.containerTwo .personalText .personalTextt h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.containerTwo .personalText .personalTextt p{
+    color: gray;
+    font-size: 15px;
+}
+.containerTwo .personalText .personalTextt button{
+    background-color: #7F97FF;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+  
+}
+.containerTwo .personalText .personalTextt button:hover{
+    cursor: pointer;
+}
+#services{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerThree{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerThree .servicesText{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerThree .servicesText .servicesTextt{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap:10px;
+}
+.containerThree .servicesText .servicesTextt h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.containerThree .servicesText .servicesTextt p{
+    color: gray;
+}
+.containerThree .servicesIcon .iconBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projects{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6BB0FD ;
+}
+.containerFour{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.containerFour .projectsText{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.containerFour .projectsText .number{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
